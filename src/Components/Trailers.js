@@ -11,7 +11,7 @@ function Trailers({ movies }) {
   return (
     <div>
       {id && (
-        <div style={{}}>
+        <div>
           <h1>{data[0].title}</h1>
           <iframe
             style={{ borderRadius: "20px" }}
@@ -19,9 +19,9 @@ function Trailers({ movies }) {
             height="415"
             src={data[0].srcURL}
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <p>{data[0].description}</p>
         </div>
