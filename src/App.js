@@ -6,6 +6,7 @@ import AddMovie from "./Components/AddMovie";
 import Footer from "./Components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Trailers from "./Components/Trailers";
+//push check
 
 
 function App() {
